@@ -1,0 +1,108 @@
+<Dialogue>
+	<!--Нулевой нод-->
+	<Node>
+		<NPCtext>Итак, начнем писать диалоги. Я - это ты, но чуть раньше. Пишу этот текст, чтобы ты понимал работает та дрянь, что ты написал или нет. Давай начнем с того, что ты выберешь один из нескольких ответов указанных ниже, будем надеяться, что все сработает так, как мы и хотим. Предполагая, что мы хотим одного и того же.</NPCtext>
+		<Answers>
+			<Answer tonode ="1"><Text>Так, я тебя понял, но мне вот хочется, чтобы ты мне напомнил текст, с которого начинается каждая серия аниме "Берсерк" 1997 года.</Text></Answer>
+			<Answer tonode ="2"><Text>Чо?</Text></Answer>
+			<Answer tonode ="3"><Text>То есть ты предлагаешь мне разговаривать самому с собой? Или это я предлагаю разговаривать себе с собой? Или я предлагаешь мне разговаривать самому с собой...</Text></Answer>
+			<Answer tonode ="4"><Text>А просто циферками не мог? Обязательно писать тонны текста?</Text></Answer>
+			<Answer tonode ="5"><Text>FUCK YOU!</Text></Answer>
+		</Answers>
+	</Node>
+		<!--Первый нод-->
+	<Node>
+		<NPCtext>Да легко, "Что вершит судьбу человечества в этом мире? Некое незримое существо или закон, подобно Длани Господней парящей над миром? По крайне мере истинно то, что человек не властен даже над своей волей." Пойдет?</NPCtext>
+		<Answers>
+			<Answer tonode ="6"><Text>Ага, круть, спасибо.</Text></Answer>
+			<Answer tonode ="7"><Text>В принципе, можно было бы обсудить эту цитату, ты как?</Text></Answer>
+			<Answer tonode ="12"><Text>Это все что мне было нужно. Грац. Досвидосики!</Text><DialEnd>true</DialEnd></Answer>
+		</Answers>
+	</Node>
+	<!--Второй нод-->
+		<Node>
+		<NPCtext>Ничо! Через плечо не горячо?</NPCtext>
+		<Answers>
+			<Answer tonode ="8"><Text>Нет, не горячо!</Text></Answer>
+			<Answer tonode ="9"><Text>А чо?</Text></Answer>
+			<Answer tonode ="12"><Text>Фу, быдло, дизлайк и отписка.</Text><DialEnd>true</DialEnd></Answer>
+		</Answers>
+	</Node>
+	<!--Третий нод-->
+		<Node>
+		<NPCtext>Я больше склоняюсь, как ты знаешь, к "... это я предлагаю разговаривать себе с собой.", но мне проще сейчас обращаться к самому себе в 3-м лице.</NPCtext>
+		<Answers>
+			<Answer tonode ="6"><Text>Ну лан, спасибо.</Text></Answer>
+			<Answer tonode ="12"><Text>Понятно</Text><DialEnd>true</DialEnd></Answer>
+		</Answers>
+	</Node>
+	<!--Четвертый нод-->
+	<Node>
+		<NPCtext>Резонное замечание, пока дошел до тебя ,понял, что едрить много придется писать...</NPCtext>
+		<Answers>
+			<Answer tonode ="6"><Text>1</Text></Answer>
+			<Answer tonode ="12"><Text>0</Text><DialEnd>true</DialEnd></Answer>
+		</Answers>
+	</Node>
+	<!--Пятый нод-->
+	<Node>
+		<NPCtext>NO, FUCK YOU LEATHERMAN!</NPCtext>
+		<Answers>
+			<Answer tonode ="10"><Text>OH SHIT IM SORRY!</Text></Answer>
+			<Answer tonode ="11"><Text>AAAAAHHH!</Text></Answer>
+		</Answers>
+	</Node>
+	<!--Шестой нод-->
+	<Node>
+		<NPCtext>Пожалуйста</NPCtext>
+		<Answers>
+			<Answer tonode ="12"><Text>[Выйти из разговора]</Text><DialEnd>true</DialEnd></Answer>
+		</Answers>
+	</Node>
+	<!--Седьмой нод-->
+	<Node>
+		<NPCtext>Не, и так на четвертом ответе осознал, что я пидор. Надо было циферками писать.</NPCtext>
+		<Answers>
+			<Answer tonode ="6"><Text>Лан, энивей спасибо.</Text></Answer>
+		</Answers>
+	</Node>
+	<!--Восьмой нод-->
+	<Node>
+		<NPCtext>Признаю, был не прав.</NPCtext>
+		<Answers>
+			<Answer tonode ="12"><Text>Вот и все</Text><DialEnd>true</DialEnd></Answer>
+		</Answers>
+	</Node>
+	<!--Девятый нод-->
+	<Node>
+		<NPCtext>Ой, иди нахер.</NPCtext>
+		<Answers>
+			<Answer tonode ="6"><Text>Лан, энивей спасибо.</Text></Answer>
+		</Answers>
+	</Node>
+	<!--Десятый нод-->
+	<Node>
+		<NPCtext>SORRY FOR WHAT?</NPCtext>
+		<Answers>
+			<Answer tonode ="11"><Text>)</Text></Answer>
+		</Answers>
+	</Node>
+	<!--Одиннадцатый нод-->
+	<Node>
+		<NPCtext>[Неистовое проявление мужских симпатий]</NPCtext>
+		<Answers>
+			<Answer tonode ="12"><Text>[Присоединиться]</Text><DialEnd>true</DialEnd></Answer>
+		</Answers>
+	</Node>
+	<!--Двенадцатый нод-->
+	<Node>
+		<NPCtext>О, ты вернулся. Ну что, проверим что-нибудь еще?</NPCtext>
+		<Answers>
+			<Answer tonode ="1"><Text>Так, мне вот хочется, чтобы ты мне напомнил текст, с которого начинается каждая серия аниме "Берсерк" 1997 года.</Text></Answer>
+			<Answer tonode ="2"><Text>Чо?</Text></Answer>
+			<Answer tonode ="3"><Text>То есть ты предлагаешь мне разговаривать самому с собой? Или это я предлагаю разговаривать себе с собой? Или я предлагаешь мне разговаривать самому с собой...</Text></Answer>
+			<Answer tonode ="4"><Text>А просто циферками не мог? Обязательно писать тонны текста?</Text></Answer>
+			<Answer tonode ="5"><Text>FUCK YOU!</Text></Answer>
+		</Answers>
+	</Node>
+</Dialogue>
